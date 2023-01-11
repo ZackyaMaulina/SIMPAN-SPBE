@@ -1,0 +1,29 @@
+
+
+
+
+.login {
+  width: 800px;
+  margin: 20px auto;
+  height: 500px;
+  background: $white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  .left {
+    background: rgb(41, 3, 77);
+    height: 100%;
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .right {
+    background: #ffffff;
+    height: 100%;
+    flex: 1;
+    border-radius: 0 5px 5px 0;
+  }
+}
