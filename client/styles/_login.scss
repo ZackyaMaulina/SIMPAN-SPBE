@@ -9,12 +9,13 @@
   justify-content: space-between;
   gap: 10px; 
   
+  
   .left {
 
     height: 100%;
     flex-basis: 50%;
     border-radius: 5px 0 0 5px;
-    background-image: url("/kb1.png");
+    background-image: url("/img/kb1.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -66,9 +67,20 @@
   width: 300px;
   padding: 16px;
   margin: 0 auto;
+  
 }
 
 /* Style untuk heading */
+.form-description {
+  img {
+    position: relative;
+    left: 30px;
+    
+  }
+
+}
+
+
 h1 {
   text-align: center;
   margin-bottom: 16px;
@@ -76,33 +88,65 @@ h1 {
 }
 
 /* Style untuk input dan label */
+.form-label {
+  position: relative;
+  top: 40px;
+
+}
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  box-sizing: border-box;
+  
 }
 
 label {
   margin-bottom: 8px;
+
+}
+
+.password-label {
+  position: relative;
+  top: 10px;
 }
 
 /* Style untuk tombol login */
-.button {
+
+.btn-description {
+  position: relative;
+  top: 20px;
+}
+
+.button1 {
 
   width: 100%;
   background-color: #161A3F;
   color: white;
-  padding: 10px 10px;
-  margin: 8px 0;
+  padding: 10px 0px 5px  ;
+  margin: 8px 0px ;
   border: none;
   cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  top: 1px;
 
 }
-  
-  
+
+.button2 {
+  width: 100%;
+  color: #161A3F;
+  background-color: white;
+  padding: 10px 0px 5px  ;
+  margin: 8px 0px ;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  box-shadow: rgb(187, 18, 18);
+}
 
 button:hover {
   opacity: 0.10;
