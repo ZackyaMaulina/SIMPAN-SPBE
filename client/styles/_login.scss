@@ -113,6 +113,16 @@ label {
   top: 10px;
 }
 
+a {
+  color: #161A3F;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+  left: 193px;
+  font-weight: bold;
+}
+
 /* Style untuk tombol login */
 
 .btn-description {
@@ -151,3 +161,4 @@ label {
 button:hover {
   opacity: 0.10;
 }
+
