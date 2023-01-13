@@ -1,7 +1,11 @@
 body {
   background: #ffffff;
   display: flex;
+<<<<<<< HEAD
   align-items: center;
+=======
+  flex-direction: column;
+>>>>>>> 1ed8063bf942a2e4b93014b85400335004f41ab2
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -9,10 +13,22 @@ body {
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
+@import 'styles/reset';
 @import 'styles/variabel';
 @import 'styles/login';
+<<<<<<< HEAD
 @import 'styles/signup';
 @import 'styles/beranda';
+=======
+@import 'styles/beranda';
+@import 'styles/signup';
+@import 'styles/artikel';
+>>>>>>> 1ed8063bf942a2e4b93014b85400335004f41ab2
 
