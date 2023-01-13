@@ -8,21 +8,20 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px; 
-  
+  box-shadow:0 3px 30px #4b4b4b;
   
   .left {
-
-    height: 100%;
-    flex-basis: 50%;
-    border-radius: 5px 0 0 5px;
-    background-image: url("/img/kb1.png");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .logo-description {
+      height: 100%;
+      flex-basis: 50%;
+      border-radius: 5px 0 0 5px;
+      background-image: url("/img/kb1.png");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+       .logo-description {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -113,15 +112,15 @@ label {
   top: 10px;
 }
 
-a {
-  color: #161A3F;
-  text-decoration: none;
-  font-size: 14px;
-  position: relative;
-  top: 20px;
-  left: 193px;
-  font-weight: bold;
-}
+// a {
+//   color: #161A3F;
+//   text-decoration: none;
+//   font-size: 14px;
+//   position: relative;
+//   top: 20px;
+//   left: 193px;
+//   font-weight: bold;
+// }
 
 /* Style untuk tombol login */
 

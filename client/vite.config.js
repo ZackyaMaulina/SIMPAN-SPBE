@@ -7,8 +7,10 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         nested: resolve(__dirname, 'login.html'),
+        nested: resolve(__dirname, 'beranda.html'),
         nested: resolve(__dirname, 'signup.html'),
         nested: resolve(__dirname, 'artikel.html'),
+
       },
     },
   },
