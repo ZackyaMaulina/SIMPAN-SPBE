@@ -1,16 +1,12 @@
 body {
   background: #ffffff;
   display: flex;
-<<<<<<< HEAD
   align-items: center;
-=======
   flex-direction: column;
->>>>>>> 1ed8063bf942a2e4b93014b85400335004f41ab2
   margin: 0;
   padding: 0;
   line-height: 1;
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
 }
 
 a {
@@ -18,17 +14,41 @@ a {
   font-weight: normal;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 @import 'styles/reset';
 @import 'styles/variabel';
 @import 'styles/login';
-<<<<<<< HEAD
-@import 'styles/signup';
-@import 'styles/beranda';
-=======
-@import 'styles/beranda';
 @import 'styles/signup';
 @import 'styles/artikel';
->>>>>>> 1ed8063bf942a2e4b93014b85400335004f41ab2
-
+@import 'styles/beranda';
+@import 'styles/beranda2';
+@import 'styles/servicedesk';
+@import 'styles/forum';
+@import 'styles/artikel-semua';
+@import 'styles/artikelmasuk';
+@import 'styles/detail-forum';
+@import 'styles/forum-semua';
+@import 'styles/forum-konsep';
+@import 'styles/forum-mp';
+@import 'styles/forum-terpublikasikan';
+@import 'styles/forum-ditolak';
+@import 'styles/forum-td';
+@import 'styles/modal';
+@import 'styles/artikel-konsep';
+@import 'styles/artikel-mp';
+@import 'styles/artikel-terpublikasikan';
+@import 'styles/artikel-ditolak';
+@import 'styles/artikel-tp';
+@import 'styles/detailartikel';
+@import 'styles/profil';
+@import 'styles/login-admin';
+@import 'styles/dashboard';
+@import 'styles/dashboard-artikel';
+@import 'styles/dashboard-artikel(view)';
+@import 'styles/dashboard-artikel(view-pv)';
+@import 'styles/dashboard-forum';

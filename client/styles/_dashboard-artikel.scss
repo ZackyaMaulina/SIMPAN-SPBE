@@ -1,0 +1,59 @@
+.container-dash2 {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+    .content-dasharticle {
+        position: relative;
+        margin-top: -1vh;
+        min-height: 150vh;
+        background: #1B214F;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .sidebar ul li {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .sidebar ul li span {
+        display: none;
+    }
+
+    .sidebar {
+        align-items: center;
+    }
+
+    .sidebar ul li i {
+        font-size: 30px;
+    }
+
+    .sidebar ul li i:hover {
+        padding: 8px 38px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .brand h1 {
+        display: none;
+    }
+
+    .brand i {
+        font-size: 30px;
+    }
+
+    .cards-dash {
+        justify-content: center;
+    }
+
+    .sidebar ul li i {
+        font-size: 20px;
+    }
+
+}

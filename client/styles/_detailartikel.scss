@@ -1,14 +1,13 @@
-.main-artikel {
+.main3 {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 40px;
   font-family: "Roboto", sans-serif;
-  padding-top: 120px;
+  padding-top: 120px; 
 
   .sidebar {
     flex-basis: 25%;
-
 
     .widget {
       background: $primary_color;
@@ -24,8 +23,42 @@
         margin-bottom: 15px;
       }
 
+
       .widget-body {
-        ul {
+        h2 {
+          font-size: 18px;
+          color: #fff;
+          font-weight: bold;
+        }
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          padding: 10px 0;
+          
+        }
+
+        i,
+        h4 {
+          position: relative;
+          right: 5px;
+          padding-top: 10px;
+          color: #969696;
+        }
+
+        i {
+          margin-left: 5px;
+          width: 10px;
+          height: 5px;
+        }
+
+        h4 {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 15px;
+
+        }
+          ul {
           list-style: none;
           margin: 0;
           padding: 0;
@@ -40,6 +73,44 @@
           }
         }
       }
+
+      .value-description {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 10px;
+
+        ul {
+          display: inline-flex;
+          padding: 0;
+          margin: 0;
+          font-size: 15px;
+          color: #545454;
+
+          li {
+            display: flex;
+            margin-right: 8px;
+            gap: 5px;
+          }
+        }
+      }
+
+      .widget-bottom {
+        i {
+          padding-bottom: 10px;
+        }
+
+        h4 {
+          display: inline-block;
+          color: #ffffff;
+          font-weight: 500;
+        }
+
+        p {
+          display: inline-block;
+          color: rgb(156, 156, 156);
+        }
+      }
     }
   }
 
@@ -48,7 +119,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+  
     .card {
       padding: 20px;
       background: #fff;
@@ -65,22 +136,19 @@
           border: none;
           background-color: #161A3F;
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-
+          color: #ffffff;
 
         }
       }
-
-
     }
-
-    .first-card {
+  
+    .second-card {
       padding: 20px;
       background: #fff;
       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
       border: 1px solid #ddd;
       border-radius: 15px;
     }
-
     .article {
       height: 650px;
 
@@ -97,21 +165,23 @@
       }
     }
 
+  
     .conten-footer {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
+  
       .left {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-
+  
         ul {
           display: inline-flex;
           padding: 0;
           margin: 0;
-
+          color: #545454;
+  
           li {
             display: flex;
             margin-right: 20px;
@@ -119,17 +189,18 @@
           }
         }
       }
-
+  
       .right {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-
+  
         ul {
           display: inline-flex;
           padding: 0;
           margin: 0;
-
+          color: #545454;
+  
           li {
             display: flex;
             margin-right: 8px;
@@ -138,51 +209,18 @@
         }
       }
     }
-
+  
     .text {
       h1 {
         font-size: 25px;
         font-weight: bold;
-
+        margin-bottom: 20px;
+  
         a {
           color: black;
         }
       }
     }
-
-    .related {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-
-      .card {
-        height: 400px;
-        width: 100%;
-        background-color: #161a3f;
-        border-radius: 30px;
-
-        img {
-          width: 250px;
-          height: 170px;
-          position: relative;
-          left: 5px;
-          border-radius: 7px;
-        }
-
-        p {
-          position: relative;
-          top: 10px;
-          text-align: justify;
-          color: #ffff;
-          font-size: 15px;
-        }
-      }
-    }
   }
 }
 
-@media (max-height:800px) {
-  footer {
-    position: static;
-  }
-}
