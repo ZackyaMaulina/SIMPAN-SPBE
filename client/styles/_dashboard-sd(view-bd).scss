@@ -1,0 +1,178 @@
+// .sidebar-sdview-bd {
+//     height: 100%;
+//     width: 250px;
+//     position: fixed;
+//     z-index: 1;
+//     top: 0;
+//     left: 0;
+//     background-color: #1B214F;
+//     overflow-x: hidden;
+//     padding-top: 20px;
+//     margin-bottom: 10px;
+//     font-family: "Roboto", sans-serif;
+
+//     .brand-sdview-bd {
+//         height: 10vh;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         border-bottom: 2px solid lightgray;
+//         margin-bottom: 10px;
+//         color: white;
+//         cursor: pointer;
+
+//         h1 {
+//             font-size: 25px;
+//             font-weight: bold;
+//         }
+//     }
+
+//     .brand-sdview-bd i {
+//         font-size: 20px;
+//     }
+// }
+
+.sidebar-sdview-bd ul li {
+    font-size: 20px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-sdview-bd ul li:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: lightgrey;
+}
+
+.container-sdview-bd {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.content-sdview-bd {
+    position: relative;
+    background: #1B214F;
+    height: 100vh;
+
+    .first-cardsdview-bd {
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        height: 500px;
+        width: 900px;
+        position: relative;
+        left: 100px;
+        top: 20px;
+    }
+
+    .core {
+        .card-body {
+            i {
+                position: relative;
+                left: 850px;
+                bottom: 10px;
+                text-decoration: none;
+                color: black;
+            }
+
+            .question {
+                font-weight: bold;
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+
+            .row {
+                line-height: 1.5;
+
+                h5 {
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                    color: #969696;
+
+                }
+
+                .text-secondary {
+                    color: #000000;
+                    padding-bottom: 20px;
+
+                    .answer {
+                        input {
+                            padding: 20px;
+                            width: 850px;
+                        }
+
+                    }
+
+                    .btn-sd {
+                        .button-sd {
+                            a {
+                                background: #1B214F;
+                                padding: 5px;
+                                color: white;
+                                border-radius: 5px;
+                                position: relative;
+                                top: 20px;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                align-items: center;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .sidebar-dash3 ul li {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .sidebar-dash3 ul li span {
+        display: none;
+    }
+
+    .sidebar-dash3 {
+        align-items: center;
+    }
+
+    .sidebar-dash3 ul li i {
+        font-size: 30px;
+    }
+
+    .sidebar-dash3 ul li i:hover {
+        padding: 8px 38px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .brand-dash3 h1 {
+        display: none;
+    }
+
+    .brand-dash3 i {
+        font-size: 30px;
+    }
+
+    .cards-dash {
+        justify-content: center;
+    }
+
+    .sidebar-dash3 ul li i {
+        font-size: 20px;
+    }
+
+}

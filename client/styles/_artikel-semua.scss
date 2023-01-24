@@ -1,0 +1,221 @@
+.main-all {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 120px; 
+  
+  .sidebar {
+    flex-basis: 25%;
+
+
+    .widget {
+      background: $primary_color;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      color: #fff;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+      .widget-title {
+        border-bottom: 4px solid #fff;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+      }
+
+      .widget-text {
+        h3 {
+          background-color: #d9d9d9;
+          margin-top: 10px;
+          text-align: center;
+          padding: 10px;
+          border-radius: 5px;
+
+          a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+          }
+        }
+      }
+
+      .widget-profile {
+        display: flex;
+
+        img {
+          width: 68px;
+          height: 60px;
+          position: relative;
+          left: 5px;
+        }
+
+        h3 {
+          left: 100px;
+          margin-bottom: 10px;
+          margin-left: 30px;
+          margin-top: 8px;
+        }
+      }
+
+      .widget-body {
+        img {
+          width: 68px;
+          height: 60px;
+          position: relative;
+          left: 5px;
+        }
+
+        h3 {
+          position: relative;
+          bottom: 50px;
+          left: 100px;
+          margin-bottom: 10px;
+          border-radius: 5px;
+        }
+
+        h2 {
+          color: #969696;
+        }
+
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            a {
+              color: #fff;
+              padding: 10px 0;
+              display: block;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .card {
+  
+      form {
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+          background-color: #161A3F;
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+    
+  
+    .list-menu {
+      display: flex;
+      background-color: #161a3f;
+      padding: 20px;
+      width: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  
+      li {
+        position: relative;
+        left: 35px;
+  
+        .active {
+          color: #929090;
+        }
+      }
+  
+      a {
+        color: #fff;
+        padding-right: 25px;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+      }
+    }
+
+   
+  
+    .card {
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+      border: 1px solid #ddd;
+      border-radius: 15px;
+    }
+  
+    .articles {
+      height: 220px;
+  
+      h1 {
+        font-size: 35px;
+        text-align: left;
+      }
+  
+      p {
+        position: relative;
+        top: 20px;
+        text-align: justify;
+        line-height: 1.5;
+        
+      }
+    }
+  
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 30px;
+  
+      .left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+  
+        ul {
+          display: inline-flex;
+          padding: 0;
+          margin: 0;
+          color: #545454;
+  
+          li {
+            display: flex;
+            margin-right: 20px;
+            gap: 8px;
+          }
+        }
+      }
+  
+      .right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+  
+        ul {
+          display: inline-flex;
+          padding: 0;
+          margin: 0;
+          color: #545454;
+  
+          li {
+            display: flex;
+            margin-right: 8px;
+            gap: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+

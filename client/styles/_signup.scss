@@ -1,155 +1,149 @@
 .signup {
-    width: 800px;
-    margin: 20px auto;
-    height: 500px;
-    background: $white;
-    border-radius: 5px;
+  width: 800px;
+  margin: 20px auto;
+  height: 500px;
+  background: $white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  box-shadow: 0 3px 30px #4b4b4b;
+
+  .left {
+    height: 100%;
+    flex-basis: 50%;
+    border-radius: 5px 0 0 5px;
+    background-image: url("/img/kb1.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 10px; 
-    box-shadow:0 3px 30px #4b4b4b;
-    
-    .left {
-  
-      height: 100%;
-      flex-basis: 50%;
-      border-radius: 5px 0 0 5px;
-      background-image: url("/img/kb1.png");
-      background-size: cover;
-      background-position: center;
+    justify-content: center;
+
+    .logo-description {
       display: flex;
       align-items: center;
-      justify-content: center;
-  
-      .logo-description {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        img {
-          width: 81px;
-          height: 91px;
-        }
-        .teks-description {
-         h1,p {
+      justify-content: space-between;
+
+      img {
+        width: 81px;
+        height: 91px;
+      }
+
+      .teks-description {
+
+        h1,
+        p {
           color: #ffffff;
           margin: 0;
           padding: 0;
           line-height: 1.2;
-  
-         }
-  
-         h1 {
+        }
+
+        h1 {
           font-size: 28px;
-          
-         }
-  
-         p {
+        }
+
+        p {
           font-size: 15px;
           font-weight: 500;
-         }
         }
-  
       }
     }
-  
-    .right {
-      background: #ffffff;
-      height: 100%;
-  
-      border-radius: 0 5px 5px 0;
-      flex-basis: 50%;
+  }
+
+  .right {
+    background: #ffffff;
+    height: 100%;
+
+    border-radius: 0 5px 5px 0;
+    flex-basis: 50%;
+
+    /* Style untuk heading */
+    .form-description {
+
+      /* Style untuk container */
+      .container {
+        width: 300px;
+        padding: 16px;
+        margin: 0 auto;
+
+        img {
+          width: 150px;
+          position: relative;
+          left: 50px;
+          top: 20px;
+        }
+
+        h1 {
+          text-align: center;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          margin-top: 40px;
+          color: #161a3f;
+        }
+      }
     }
-  }
-  
-  /* Style untuk container */
-  .container {
-    width: 300px;
-    padding: 16px;
-    margin: 0 auto;
-    
-  }
-  
-  /* Style untuk heading */
-  .form-description {
-    img {
+
+    .form-label {
       position: relative;
-      left: 100px;
+    }
+
+    /* Style untuk input dan label */
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    .password-label {
+      position: relative;
       top: 10px;
-      width: 100px;
     }
-  
-  }
-  
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 16px;
-    color: #161A3F;
-  }
-  
-  /* Style untuk input dan label */
-  input[type=text], input[type=password] {
-    width: 100%;
-    height:35px;
-    padding: 12px 20px;
-    margin: 2px 0;
-    display: inline-block;
-    border: px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 5px;
-    
+
+    .btn-description {
+      position: relative;
+
+      .button1 {
+        width: 100px;
+        background-color: #161a3f;
+        color: white;
+        padding: 10px 0px 5px;
+        margin: 8px 0px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        left: 83px;
+        bottom: 10px;
+        top: 1px;
+        border-radius: 4px;
+      }
+
+      .button2 {
+        width: 100%;
+        color: #161a3f;
+        background-color: white;
+        padding: 10px 0px 5px;
+        margin: 8px 0px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        bottom: 10px;
+
+        box-shadow: rgb(187, 18, 18);
+      }
+
+      button:hover {
+        opacity: 0.1;
+      }
     }
-      
- .email-label {
-    position: relative;
-    top: 8px;
- } 
-
- .password-description {
-    position: relative;
-    top: 15px;
- }
-
- .confirm-description {
-    position: relative;
-    top: 21px;
- }
-   
-  /* Style untuk tombol login */
-  .button1 {
-    width: 100px;
-    color: #ffffff;
-    padding: 10px 0px 5px  ;
-    margin: 8px 0px ;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    bottom: 10px;
-    left: 100px;
-    top: 30px;
-    border-radius: 5px;
-    font-weight: 200;
-  
   }
-  
-  .button2 {
-    width: 100%;
-    color: #161A3F;
-    padding: 10px 0px 5px  ;
-    margin: 8px 0px ;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    bottom: 10px;
-    top: 15px;
-    
-  }
-  
-  button:hover {
-    opacity: 0.10;
-  }
-
-  
-
-  
+}

@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.sidebar-dash {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1B214F;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+
+    .brand {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid lightgray;
+        margin-bottom: 10px;
+        color: white;
+        cursor: pointer;
+
+
+        h1 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+    .brand i {
+        font-size: 20px;
+    }
+
+    ul li {
+        font-size: 18px;
+        padding: 10px 40px;
+        color: white;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        span {
+            margin-left: 20px;
+        }
+    }
+
+    ul li:hover {
+        background: rgba(0, 0, 0, 0.2);
+        color: lightgrey;
+    }
+}
+
+.container-dash {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+
+    .nav {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search {
+        flex: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .search input {
+        border: none;
+        background: white;
+        padding: 10px;
+        width: 50%;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .search button {
+        width: 40px;
+        height: 35px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .content-dash {
+        position: relative;
+        margin-top: -1vh;
+        min-height: 150vh;
+        background: #1B214F;
+
+        .cards-dash {
+            padding: 15px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-right: 30px;
+
+            .card-dash {
+                width: 230px;
+                height: 130px;
+                background: white;
+                margin: 15px 8px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+                .box h1 {
+                    color: #1B214F;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+
+                .icon {
+                    color: #1B214F;
+                    font-size: 40px;
+                }
+
+                i:hover {
+                    color: lightgrey;
+                }
+            }
+        }
+
+        .content-2 {
+            min-height: 60vh;
+            // display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+
+            .payments {
+                min-height: 50vh;
+                flex: 5;
+                background: white;
+                margin: 0 25px 25px 25px;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+                // display: flex;
+                flex-direction: column;
+                border-radius: 5px;
+
+                .title-dash {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 15px 10px;
+                    border-bottom: 2px solid #999;
+
+                    h2 {
+                        font-size: 20px;
+                        position: relative;
+                        right: 150px;
+                        font-weight: bold;
+                    }
+                }
+
+                .payments,
+                .btn {
+                    color: white;
+                    padding: 5px 10px;
+                    text-align: center;
+                    background: #1B214F;
+                    border-radius: 5px;
+                    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+                    position: relative;
+                    left: 150px;
+                }
+
+                .title-dash .btn:hover,
+                .payments,
+                .btn:hover {
+                    color: #191919;
+                    background: lightgrey;
+                    padding: 5px 10px;
+                    text-align: center;
+
+                }
+            }
+
+            .students {
+                flex: 2;
+                background: white;
+                min-height: 50vh;
+                margin: 0 25px;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+                // display: flex;
+                flex-direction: column;
+                border-radius: 5px;
+                margin-bottom: 20px;
+
+
+                .title-dash {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 15px 10px;
+                    border-bottom: 2px solid #999;
+
+                    h2 {
+                        font-size: 20px;
+                        position: relative;
+                        right: 150px;
+                        font-weight: bold;
+                    }
+                }
+
+                .students,
+                .btn {
+                    color: white;
+                    padding: 5px 10px;
+                    text-align: center;
+                    background: #1B214F;
+                    border-radius: 5px;
+                    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+                    position: relative;
+                    left: 150px;
+
+                }
+
+                .title-dash .btn:hover,
+                .students,
+                .btn:hover {
+                    color: #191919;
+                    background: lightgrey;
+                    padding: 5px 10px;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .sidebar ul li {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .sidebar ul li span {
+        display: none;
+    }
+
+    .sidebar {
+        align-items: center;
+    }
+
+    .sidebar ul li i {
+        font-size: 30px;
+    }
+
+    .sidebar ul li i:hover {
+        padding: 8px 38px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .brand h1 {
+        display: none;
+    }
+
+    .brand i {
+        font-size: 30px;
+    }
+
+    .cards-dash {
+        justify-content: center;
+    }
+
+    .sidebar ul li i {
+        font-size: 20px;
+    }
+
+}
