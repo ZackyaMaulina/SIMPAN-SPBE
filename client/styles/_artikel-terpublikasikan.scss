@@ -32,13 +32,9 @@
           padding: 10px;
           border-radius: 5px;
 
-<<<<<<< HEAD
           .active {
             color: #8a8a8a;
           }
-
-=======
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
 
           a {
             text-decoration: none;
@@ -114,24 +110,6 @@
     flex-direction: column;
     gap: 20px;
 
-<<<<<<< HEAD
-=======
-    .card {
-  
-      form {
-  
-        input {
-          width: 100%;
-          padding: 10px;
-          border-radius: 10px;
-          border: none;
-          background-color: #161A3F;
-          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-        }
-      }
-    }
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
     .list-menu {
       display: flex;
       background-color: #161a3f;
@@ -139,29 +117,16 @@
       width: auto;
       border-radius: 15px;
       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-<<<<<<< HEAD
       justify-content: center;
 
       li {
         position: relative;
         left: 35px;
 
-=======
-  
-      li {
-        position: relative;
-        left: 35px;
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
         .active {
           color: #929090;
         }
       }
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       a {
         color: #fff;
         padding-right: 25px;
@@ -170,22 +135,16 @@
         font-size: 15px;
       }
     }
-<<<<<<< HEAD
 
     a {
       color: #000;
     }
-
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
     .card {
       padding: 20px;
       background: #fff;
       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
       border: 1px solid #ddd;
       border-radius: 15px;
-<<<<<<< HEAD
 
       form {
 
@@ -205,22 +164,11 @@
     .articles {
       height: 220px;
 
-=======
     }
-  
-    .articles {
-      height: 220px;
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       h1 {
         font-size: 35px;
         text-align: left;
       }
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       p {
         position: relative;
         top: 20px;
@@ -228,40 +176,22 @@
         line-height: 1.5;
       }
     }
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
     .bottom {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding-top: 30px;
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       .left {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
         ul {
           display: inline-flex;
           padding: 0;
           margin: 0;
           color: #545454;
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           li {
             display: flex;
             margin-right: 20px;
@@ -269,30 +199,17 @@
           }
         }
       }
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       .right {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
         ul {
           display: inline-flex;
           padding: 0;
           margin: 0;
           color: #545454;
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           li {
             display: flex;
             margin-right: 8px;
@@ -301,7 +218,7 @@
         }
       }
     }
-<<<<<<< HEAD
+
 
     .modal-body {
       .row {
@@ -452,11 +369,3 @@
       }
     }
   }
-
-}
-=======
-  }
-
-}
-
->>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
