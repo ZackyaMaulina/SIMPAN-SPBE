@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         nested: resolve(__dirname, 'login.html'),
         nested: resolve(__dirname, 'signup.html'),
+<<<<<<< HEAD
         nested: resolve(__dirname, 'artikel.html'),
         nested: resolve(__dirname, 'beranda.html'),
         nested: resolve(__dirname, 'beranda2.html'),
@@ -22,11 +23,20 @@ export default defineConfig({
         nested: resolve(__dirname, 'forum-terpublikasikan.html'),
         nested: resolve(__dirname, 'forum-ditolak.html'),
         nested: resolve(__dirname, 'forum-td.html'),
+=======
+        nested: resolve(__dirname, 'beranda1.html'),
+        nested: resolve(__dirname, 'beranda.html'),
+        nested: resolve(__dirname, 'artikel.html'),
+        nested: resolve(__dirname, 'artikelmasuk.html'),
+        nested: resolve(__dirname, 'detailartikel.html'),
+        nested: resolve(__dirname, 'artikel-semua.html'),
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
         nested: resolve(__dirname, 'artikel-konsep.html'),
         nested: resolve(__dirname, 'artikel-mp.html'),
         nested: resolve(__dirname, 'artikel-terpublikasikan.html'),
         nested: resolve(__dirname, 'artikel-ditolak.html'),
         nested: resolve(__dirname, 'artikel-tp.html'),
+<<<<<<< HEAD
         nested: resolve(__dirname, 'detailartikel.html'),
         nested: resolve(__dirname, 'profil.html'),
         nested: resolve(__dirname, 'login-admin.html'),
@@ -35,6 +45,19 @@ export default defineConfig({
         nested: resolve(__dirname, 'dashboard-artikel(view)'),
         nested: resolve(__dirname, 'dashboard-artikel(view-pv)'),
         nested: resolve(__dirname, 'dashboard-forum'),
+=======
+        nested: resolve(__dirname, 'beranda.html'),
+        nested: resolve(__dirname, 'beranda2.html'),
+        nested: resolve(__dirname, 'profil.html'),
+        nested: resolve(__dirname, 'dashboard.html'),
+        nested: resolve(__dirname, 'dashboard-artikel.html'),
+        nested: resolve(__dirname, 'dashboard-artikel(view).html'),
+        nested: resolve(__dirname, 'dashboard-artikel(view-pv).html'),
+        nested: resolve(__dirname, 'dashboard-sd.html'),
+        nested: resolve(__dirname, 'dashboard-sd(view).html'),
+        nested: resolve(__dirname, 'dashboard-sd(view-bd).html'),
+        // nested: resolve(__dirname, 'dashboard-artikel1.html'),
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       },
     },
   },

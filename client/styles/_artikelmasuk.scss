@@ -1,11 +1,20 @@
+<<<<<<< HEAD
 .main-artikel-masuk {
+=======
+.main-insert {
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 40px;
+<<<<<<< HEAD
   font-family: "Roboto", sans-serif;
   padding-top: 120px;
   padding-top: 120px;
+=======
+  font-family: 'Roboto', sans-serif;
+  padding-top: 120px; 
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
 
   .sidebar {
     flex-basis: 25%;
@@ -16,7 +25,11 @@
       padding: 15px;
       margin-bottom: 20px;
       color: #fff;
+<<<<<<< HEAD
       box-shadow: 0 0.5rem 1rem #929090;
+=======
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
 
       .widget-title {
         border-bottom: 4px solid #fff;
@@ -24,21 +37,31 @@
         margin-bottom: 15px;
       }
 
+<<<<<<< HEAD
 
       .widget-text {
 
         h3 {
           background-color: #D9D9D9;
+=======
+      .widget-text {
+        h3 {
+          background-color: #d9d9d9;
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           margin-top: 10px;
           text-align: center;
           padding: 10px;
           border-radius: 5px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           a {
             text-decoration: none;
             color: #000;
             font-weight: bold;
+<<<<<<< HEAD
 
           }
 
@@ -46,19 +69,33 @@
 
         h4 {
           background-color: #D9D9D9;
+=======
+          }
+        }
+
+        h4 {
+          background-color: #d9d9d9;
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           text-align: center;
           padding: 10px;
           border-radius: 5px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           a {
             color: #000;
             font-weight: bold;
           }
+<<<<<<< HEAD
 
         }
 
 
+=======
+        }
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       }
 
       .widget-profile {
@@ -72,7 +109,10 @@
         }
 
         h3 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
           left: 100px;
           margin-bottom: 10px;
           margin-left: 30px;
@@ -124,8 +164,24 @@
     flex-direction: column;
     gap: 20px;
 
+<<<<<<< HEAD
     a {
       color: #000;
+=======
+    .card {
+  
+      form {
+  
+        input {
+          width: 100%;
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+          background-color: #161A3F;
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+        }
+      }
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
     }
 
     .card {
@@ -134,6 +190,7 @@
       box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
       border: 1px solid #ddd;
       border-radius: 15px;
+<<<<<<< HEAD
 
       form {
 
@@ -148,11 +205,21 @@
 
         }
       }
+=======
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
     }
 
     .articles {
       height: 220px;
 
+<<<<<<< HEAD
+=======
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       h1 {
         font-size: 35px;
         text-align: left;
@@ -162,7 +229,10 @@
         position: relative;
         top: 20px;
         text-align: justify;
+<<<<<<< HEAD
         line-height: 1.5;
+=======
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
       }
     }
 
@@ -171,7 +241,10 @@
       align-items: center;
       justify-content: space-between;
       padding-top: 10px;
+<<<<<<< HEAD
       margin-top: 20px;
+=======
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b
 
       .left {
         display: flex;
@@ -252,4 +325,8 @@
       }
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d934a369abc3ddcf2c775169f6a6fc4acabec20b

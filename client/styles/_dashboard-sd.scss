@@ -1,0 +1,254 @@
+// .sidebar-sd {
+//     height: 100%;
+//     width: 250px;
+//     position: fixed;
+//     z-index: 1;
+//     top: 0;
+//     left: 0;
+//     background-color: #1B214F;
+//     overflow-x: hidden;
+//     padding-top: 20px;
+//     margin-bottom: 10px;
+//     font-family: "Roboto", sans-serif;
+
+//     .brand-sd {
+//         height: 10vh;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         border-bottom: 2px solid lightgray;
+//         margin-bottom: 10px;
+//         color: white;
+//         cursor: pointer;
+
+
+
+//         h1 {
+//             font-size: 25px;
+//             font-weight: bold;
+//         }
+//     }
+
+//     .brand-sd i {
+//         font-size: 20px;
+//     }
+// }
+
+// .sidebar-sd ul li {
+//     font-size: 20px;
+//     padding: 10px 40px;
+//     color: white;
+//     display: flex;
+//     align-items: center;
+//     cursor: pointer;
+// }
+
+// .sidebar-sd ul li:hover {
+//     background: rgba(0, 0, 0, 0.2);
+//     color: lightgrey;
+// }
+
+.container-sd {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+
+}
+
+.content-sd {
+    position: relative;
+    margin-top: -1vh;
+    min-height: 150vh;
+    background: #1B214F;
+}
+
+.content-2sd {
+    min-height: 60vh;
+
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-family: "Roboto", sans-serif;
+
+    .payments1sd {
+        min-height: 10vh;
+        flex: 5;
+        background: white;
+        margin: 0 25px 25px 25px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+        flex-direction: column;
+        border-radius: 5px;
+        height: 400px;
+
+        .title-sd {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px 10px;
+            border-bottom: 2px solid gray;
+
+            h2 {
+                font-size: 20px;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+            }
+        }
+
+        .list-menusd {
+
+            .left1 {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-top: 20px;
+                padding-left: 40px;
+                font-weight: bold;
+                position: relative;
+                left: 50px;
+            }
+
+            .right1 {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                position: relative;
+                right: 400px;
+                bottom: 15px;
+                margin-right: 20px;
+                margin-bottom: 30px;
+                font-weight: bold;
+
+                li {
+                    display: inline-block;
+                    margin-left: 200px;
+                    position: relative;
+                    left: 180px;
+                }
+            }
+
+            .content-menusd {
+                .left2 {
+                    position: relative;
+                    bottom: 20px;
+                    left: 40px;
+                    justify-content: flex-start;
+
+                    h4 {
+                        padding-bottom: 20px;
+                        font-weight: bold;
+                        color: gray;
+                    }
+                }
+
+                .right2 {
+                    display: flex;
+                    justify-content: flex-end;
+                    position: relative;
+                    right: 320px;
+                    bottom: 200px;
+                    padding-left: 20px;
+
+
+                    .content-1-sd {
+                        position: relative;
+                        left: 35px;
+                        bottom: 4px;
+
+                        h4 {
+                            padding-bottom: 20px;
+                            color: black;
+                            font-weight: bold;
+
+                        }
+                    }
+
+                    .content-2-sd {
+                        position: relative;
+                        left: 150px;
+                        bottom: 15px;
+                        font-size: 25px;
+
+                        button {
+
+                            border: none;
+                            background-color: #1B214F;
+                            border-radius: 5px;
+                            height: 25px;
+                            width: 50px;
+                            cursor: pointer;
+                            font-weight: 500;
+                            margin-right: -15px;
+                            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+
+                            a {
+                                color: #ffffff;
+                                text-align: center;
+                                justify-content: center;
+                                position: relative;
+                                
+                            }
+
+                        }
+
+
+                        .first,
+                        .second,
+                        .third,
+                        .fourth,
+                        .fifth {
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .sidebar ul li {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .sidebar ul li span {
+        display: none;
+    }
+
+    .sidebar {
+        align-items: center;
+    }
+
+    .sidebar ul li i {
+        font-size: 30px;
+    }
+
+    .sidebar ul li i:hover {
+        padding: 8px 38px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .brand h1 {
+        display: none;
+    }
+
+    .brand i {
+        font-size: 30px;
+    }
+
+    .cards-dash {
+        justify-content: center;
+    }
+
+    .sidebar ul li i {
+        font-size: 20px;
+    }
+
+}
