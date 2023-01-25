@@ -51,8 +51,9 @@
                 img {
                     width: 108px;
                     height: 100px;
-                    position: relative;
-                    left: 85px;
+                    display: block;
+                    margin-right: auto;
+                    margin-left: auto;
                 }
             }
 
@@ -126,7 +127,7 @@
                         font-weight: bold;
                         margin-bottom: 15px;
                         color: #969696;
-                        
+
                     }
 
                     .text-secondary {
@@ -142,7 +143,7 @@
 
                     .button1 {
                         border: none;
-                        background-color:#848282 ;
+                        background-color: #848282;
                         align-items: center;
                         border-radius: 9px;
                         height: 35px;
@@ -152,20 +153,20 @@
                         margin-right: 10px;
                         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 
-                        
+
                         a {
-                          color: #ffffff;
-                          text-align: center;
-                          justify-content: center;
-                          position: relative;
-                          left: 15px;
-                          top: 10px;
+                            color: #ffffff;
+                            text-align: center;
+                            justify-content: center;
+                            position: relative;
+                            left: 15px;
+                            top: 10px;
                         }
-                      }
-    
-                      .button2 {
+                    }
+
+                    .button2 {
                         border: none;
-                        background-color:#1B214F ;
+                        background-color: #1B214F;
                         justify-content: center;
                         align-items: center;
                         border-radius: 9px;
@@ -175,17 +176,17 @@
                         font-weight: 500;
                         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
 
-                  
+
                         a {
-                          color: #ffffff;
-                          position: relative;
-                          left: 8px;
-                          top: 10px;
+                            color: #ffffff;
+                            position: relative;
+                            left: 8px;
+                            top: 10px;
                         }
-                      }
+                    }
                 }
 
-                
+
 
             }
         }

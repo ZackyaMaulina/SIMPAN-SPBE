@@ -50,6 +50,11 @@
     gap: 20px;
 
     .card {
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+      border: 1px solid #ddd;
+      border-radius: 15px;
 
       form {
 
@@ -205,9 +210,9 @@
 
 
 @media (max-height:800px) {
-footer {
-  position: static;
-}
+  footer {
+    position: static;
+  }
 }
 
 @media (max-height: 800px) {

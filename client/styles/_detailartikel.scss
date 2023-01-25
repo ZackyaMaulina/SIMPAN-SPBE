@@ -102,15 +102,14 @@
 
         h4 {
           display: inline-block;
-          color: #ffffff;
-          color: #545454;
+          color: #f7f7f7;
           font-weight: 500;
         }
 
         p {
           display: inline-block;
           color: rgb(156, 156, 156);
-          color: #000;
+          color: rgb(107, 107, 107);
         }
       }
     }
@@ -131,29 +130,26 @@
 
       form {
 
+        input {
+          width: 100%;
+          padding: 10px;
+          border-radius: 10px;
+          border: none;
+          background-color: #161A3F;
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+          color: #ffffff;
 
-        form {
-
-          input {
-            width: 100%;
-            padding: 10px;
-            border-radius: 10px;
-            border: none;
-            background-color: #161A3F;
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-            color: #ffffff;
-
-          }
         }
       }
 
-      .second-card {
-        padding: 20px;
-        background: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-        border: 1px solid #ddd;
-        border-radius: 15px;
-      }
+    }
+
+    .second-card {
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+      border: 1px solid #ddd;
+      border-radius: 15px;
 
       .article {
         height: 650px;
@@ -170,7 +166,6 @@
           margin-bottom: 20px;
         }
       }
-
 
       .conten-footer {
         display: flex;
@@ -212,18 +207,6 @@
               margin-right: 8px;
               gap: 5px;
             }
-          }
-        }
-      }
-
-      .text {
-        h1 {
-          font-size: 25px;
-          font-weight: bold;
-          margin-bottom: 20px;
-
-          a {
-            color: black;
           }
         }
       }

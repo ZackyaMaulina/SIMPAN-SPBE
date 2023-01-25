@@ -126,6 +126,10 @@
         bottom: 10px;
         top: 1px;
         border-radius: 4px;
+
+        a{
+          color: #ffffff;
+        }
       }
 
       .button2 {
@@ -138,8 +142,11 @@
         cursor: pointer;
         position: relative;
         bottom: 10px;
-
         box-shadow: rgb(187, 18, 18);
+
+        a{
+          color: #000;
+        }
       }
 
       button:hover {
