@@ -329,60 +329,57 @@
     }
 
     .content-visi {
-        display: grid;
-        gap: 20px;
-        align-items: center;
         justify-content: space-between;
         background: #161A3F;
-
+        line-height: 1.5;
+    
         .visi-title {
-            padding: 5px 5%;
-            margin-top: 20px;
-            font-size: 25px;
-            color: #ffffff;
-            text-align: center;
-
+          padding: 20px 5%;
+          margin-top: 20px;
+          font-size: 25px;
+          color: #ffffff;
+          text-align: center;
+    
         }
-
+    
         .line {
-            width: 150px;
-            height: 4px;
-            background: #000000;
+          width: 150px;
+          background: #000000;
         }
-
+    
         .visi {
-            display: flex;
-            margin-left: 200px;
-            margin-right: 230px;
-            gap: 50px;
-
+          display: flex;
+          margin-left: 200px;
+          margin-right: 230px;
+          gap: 50px;
+    
         }
-
+    
         .card-visi {
-            background: #D9D9D9;
-            justify-content: space-between;
-            margin-bottom: 50px;
-            border-radius: 20px;
-            box-shadow: 0 0.1rem 5px #424040;
-            padding-left: 30px;
-            padding-right: 20px;
-
-            h2 {
-                margin-top: 20px;
-                margin-bottom: 20px;
-                font-size: 30px;
-                text-align: center;
-            }
-
-            p {
-
-                margin-bottom: 20px;
-                text-align: justify;
-
-            }
-
+          background: #D9D9D9;
+          justify-content: space-between;
+          margin-bottom: 50px;
+          border-radius: 20px;
+          box-shadow: 0 0.1rem 5px #424040;
+          padding: 20px;
+          width: 100%;
+    
+          h2 {
+            padding: 5px;
+            font-size: 30px;
+            text-align: center;
+          }
+    
+          p {
+            font-size: 19px;
+            display: flex;
+            padding: 30px;
+            justify-content: center;
+    
+          }
+    
         }
-    }
+      }
 }
 
 @media (max-height:800px) {
