@@ -329,9 +329,11 @@
     }
 
     .content-visi {
+    
         justify-content: space-between;
         background: #161A3F;
         line-height: 1.5;
+        width: 100%;
     
         .visi-title {
           padding: 20px 5%;
@@ -349,8 +351,9 @@
     
         .visi {
           display: flex;
-          margin-left: 200px;
-          margin-right: 230px;
+          padding: 5px 5%;
+          padding-left: 150px;
+          padding-right: 150px;
           gap: 50px;
     
         }
@@ -371,7 +374,7 @@
           }
     
           p {
-            font-size: 19px;
+            font-size: 18px;
             display: flex;
             padding: 30px;
             justify-content: center;
