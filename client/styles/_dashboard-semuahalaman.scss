@@ -1,0 +1,136 @@
+#main-semua-halaman {
+    padding-top: 70px;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+    .content {
+        padding: 15px;
+        width: 100%;
+        padding-left: 290px;
+        padding-top: 20px;
+
+        .card-admin {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 1px 3px 0 #92919180;
+
+            .card1 {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    color: #000;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .right {
+                    font-size: 15px;
+
+                    .btn1 {
+                        padding: 10px;
+                        background-color: #38948A;
+                        color: #fff;
+                    }
+
+                    .btn2 {
+                        padding: 10px;
+                        background-color: #DA7551;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .card2 {
+
+            height: 100%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 1px 3px 0 #92919180;
+
+            form {
+                justify-content: end;
+                padding: 10px;
+                display: flex;
+
+                i {
+                    padding: 10px;
+                }
+
+                input {
+                    padding-bottom: 10px;
+                    width: 200px;
+                    border: none;
+                    outline: 0;
+                    border-bottom: 1px solid #e0dede;
+
+                }
+            }
+
+            table {
+                margin-top: 10px;
+
+                thead {
+                    height: 40px;
+
+                    tr {
+
+                        th {
+                            font-weight: bold;
+                            padding: 25px;
+
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        height: 40px;
+
+                        th {
+                            line-height: 1.5;
+                            padding: 25px;
+                            text-align: left;
+                        }
+                    }
+
+                    .col1 {
+                        background-color: #F9F9F9;
+                    }
+
+                    .col3 {
+                        background-color: #F9F9F9;
+                    }
+                }
+
+                i {
+                    color: #000;
+                    font-size: 15px;
+                }
+            }
+
+            .card3 {
+                display: flex;
+                text-align: center;
+                justify-content: space-between;
+
+                h1{
+                    font-size: 13px;
+                }
+
+                nav{
+                    border: 1px solid #e0dede;
+
+                    .page-item{
+                        border: 0.5px solid #fafafa;
+                    }
+
+                }
+            }
+        }
+    }
+}

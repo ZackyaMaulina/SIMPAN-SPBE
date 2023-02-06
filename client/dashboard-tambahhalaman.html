@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    <title>Tambah-Halaman</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+<body class="admin">
+    <!-- navbar -->
+    <section id="header">
+        <nav>
+            <div class="left">
+                <img src="img/logokuansing.png" alt="">
+                <span>ADMIN DASHBOARD</span>
+            </div>
+            <div class="right">
+                <div class="right-left">
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+                <div class="right-center">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="bi bi-person-circle"></i>
+                            <span>Admin</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#"><i class="bi bi-person-gear"></i>Account Settings</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i>Logout</a>
+                        </div>
+                    </li>
+                </div>
+                <dive class="right-right">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </dive>
+            </div>
+        </nav>
+    </section>
+
+    <!-- sidebar -->
+    <input type="checkbox" id="toggle">
+    <label class="side-toggle" for="toggle"><i class="bi bi-list"></i></label>
+    <div class="sidebar-dashboard">
+        <ul>
+            <li>
+                <a href="">
+                    <i class="bi bi-house-door-fill"></i>
+                    <span class="beranda">Beranda</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-newspaper"></i>
+                    <span class="beranda">Artikel</span>
+                </a>
+                <ul>
+                    <li><a class="active" href="">Semua Artikel</a></li>
+                    <li><a href="">Tambah Artikel</a></li>
+                    <li><a href="">Kategori</a></li>
+                    <li><a href="">Komentar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-file-break-fill"></i>
+                    <span class="beranda">Halaman</span>
+                </a>
+                <ul>
+                    <li><a href="">Semua Halaman</a></li>
+                    <li><a href="">Tambah Halaman</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-chat-left-dots-fill"></i>
+                    <span class="beranda">Forum</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Semua Forum</a></li>
+                    <li><a href="">Tambah Forum</a></li>
+                    <li><a href="">Kategori</a></li>
+                    <li><a href="">Komentar</a></li>
+                    <li><a href="">Jawaban</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-plugin"></i>
+                    <span class="beranda">Plugin</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Semua Plugin</a></li>
+                    <li><a href="">Tambah Plugin</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-gear-fill"></i>
+                    <span class="beranda">Pengaturan</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Umum</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-people-fill"></i>
+                    <span class="beranda">Pengguna</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Administrator</a></li>
+                    <li><a href="">User Interface</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- main -->
+    <section id="main-tambah-halaman">
+        <div class="content">
+            <div class="left">
+                <div class="card1">
+                    <i class="bi bi-file-break-fill"></i>
+                    <h1>Edit Halaman</h1>
+                </div>
+                <div class="card2">
+                    <label for="inputPassword5" class="form-label">Judul Halaman</label>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                    <div class="edit-article">
+                        <h2>Keterangan</h2>
+                        <div class="btn-article">
+                            <a class="btn1" href="">
+                                <i class="bi bi-image-fill"></i>
+                                Tambahkan Media
+                            </a>
+                            <a class="btn2" href="">
+                                <i class="bi bi-eye-fill"></i>
+                                Visual
+                            </a>
+                            <a class="btn3" href="">
+                                <i class="bi bi-code"></i>
+                                Text
+                            </a>
+                        </div>
+                    </div>
+                    <div class="write-article">
+                        <div class="row article">
+                            <div class="col1">
+                                <i class="bi bi-reply-fill"></i>
+                                <i class="bi bi-type-bold"></i>
+                                <i class="bi bi-type-italic"></i>
+                                <i class="bi bi-type-underline"></i>
+                                <i class="bi bi-justify-left"></i>
+                                <i class="bi bi-list"></i>
+                                <i class="bi bi-justify-right"></i>
+                                <i class="bi bi-list-task"></i>
+                                <i class="bi bi-list-ul"></i>
+                                <i class="bi bi-text-indent-left"></i>
+                                <i class="bi bi-text-indent-right"></i>
+                                <i class="bi bi-table"></i>
+                                <i class="bi bi-brush-fill"></i>
+                                <i class="bi bi-images"></i>
+                                <i class="bi bi-pencil-fill"></i>
+                            </div>
+                            <div class="col2">
+                                <textarea id="textarea" placeholder=""></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card1">
+                    <i class="bi bi-image-fill"></i>
+                    <h1>Thumbnail</h1>
+                </div>
+                <div class="card2">
+                    <div class="image">
+                        <i class="bi bi-image-fill"></i>
+                    </div>
+                </div>
+                <div class="card3">
+                    <h1>Sort Order</h1>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-sm">
+                        <div class="select-onof">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Aktifkan
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Nonaktifkan
+                                </label>
+                              </div>
+                        </div>
+                </div>
+                <div class="card4">
+                    <div class="btn-card6">
+                        <a class="btn1" href="">
+                            <i class="bi bi-reply-fill"> Kembali</i>
+                            <i class="bi bi-cloud-upload-fill"> Simpan</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+    <script type="module" src="/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+
+</html>

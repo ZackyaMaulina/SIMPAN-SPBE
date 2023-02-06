@@ -1,0 +1,122 @@
+#main-admin-beranda {
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 240px;
+    left: 0;
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F4F5;
+
+    .content {
+        padding: 15px;
+        gap: 20px;
+
+        .card-top {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            justify-content: center;
+
+            .article {
+                display: flex;
+                flex-basis: 25%;
+                background-color: #fff;
+                padding: 10px;
+                border-radius: 2px;
+                box-shadow: 0 0.1rem 0.5rem #ebebeb;
+                border-left: 8px solid #D27850;
+
+                .isi {
+                    h1 {
+                        font-weight: bold;
+                        font-size: 30px;
+                        padding-bottom: 6px;
+                    }
+                }
+
+                .icon {
+                    padding-left: 140px;
+                    font-size: 30px;
+                    color: #F9F9F9;
+                }
+
+            }
+
+            .forum {
+                display: flex;
+                flex-basis: 25%;
+                background-color: #fff;
+                padding: 10px;
+                border-radius: 2px;
+                box-shadow: 0 0.1rem 0.5rem #ebebeb;
+                border-left: 8px solid #39938A;
+
+                .isi {
+                    h1 {
+                        font-weight: bold;
+                        font-size: 30px;
+                        padding-bottom: 6px;
+                    }
+                }
+
+                .icon {
+                    padding-left: 140px;
+                    font-size: 30px;
+                    color: #F9F9F9;
+                }
+
+            }
+
+            .Komentar {
+                display: flex;
+                flex-basis: 25%;
+                background-color: #fff;
+                padding: 10px;
+                border-radius: 2px;
+                box-shadow: 0 0.1rem 0.5rem #ebebeb;
+                border-left: 8px solid #C56577;
+
+                .isi {
+                    h1 {
+                        font-weight: bold;
+                        font-size: 30px;
+                        padding-bottom: 6px;
+                    }
+                }
+
+                .icon {
+                    padding-left: 140px;
+                    font-size: 30px;
+                    color: #F9F9F9;
+                }
+
+            }
+
+            .Halaman {
+                display: flex;
+                flex-basis: 25%;
+                background-color: #fff;
+                padding: 10px;
+                border-radius: 2px;
+                box-shadow: 0 0.1rem 0.5rem #ebebeb;
+                border-left: 8px solid #D3A449;
+
+                .isi {
+                    h1 {
+                        font-weight: bold;
+                        font-size: 30px;
+                        padding-bottom: 6px;
+                    }
+                }
+
+                .icon {
+                    padding-left: 140px;
+                    font-size: 30px;
+                    color: #F9F9F9;
+                }
+
+            }
+        }
+    }
+}

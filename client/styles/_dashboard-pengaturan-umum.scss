@@ -1,0 +1,73 @@
+#main-admin-pengaturan-umum {
+    width: 100%;
+    padding-top: 70px;
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F4F5;
+
+    .content {
+        display: flex;
+        padding: 15px;
+        gap: 20px;
+        padding-left: 290px;
+
+        .left {
+            flex-basis: 20%;
+
+            .card1 {
+                padding: 20px;
+                text-align: center;
+                a {
+                    color: #696969;
+
+                    i {
+                        font-size: 40px;
+                        color: #9b9b9b;
+                    }
+
+                    h1{
+                        margin-top: 10px;
+                    }
+                }
+
+                .active {
+                    color: #38948A;
+
+                    i {
+                        color: #38948A;
+                    }
+                }
+            }
+        }
+
+        .right {
+            flex-basis: 80%;
+            background-color: #fff;
+            box-shadow: 0 1px 4px 0 #c4c4c480;
+            padding: 20px;
+
+            .card1 {
+                padding-bottom: 20px;
+
+                h1{
+                    font-size: 13px;
+                    padding-bottom: 10px;
+                }
+                p{
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #e0dede;
+                }
+            }
+            .button{
+                display: flex;
+                justify-content: flex-end;
+
+                .btn1 {
+                    padding: 10px;
+                    background-color: #38948A;
+                    color: #fff;
+
+                }
+            }
+        }
+    }
+}

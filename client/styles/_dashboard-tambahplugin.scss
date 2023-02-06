@@ -1,0 +1,62 @@
+#main-tambah-plugin {
+    padding-top: 70px;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+    .content {
+        padding: 15px;
+        width: 100%;
+        padding-left: 290px;
+        padding-top: 20px;
+
+        .card-admin {
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 1px 3px 0 #92919180;
+
+            .card1 {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    color: #000;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+
+        .card2 {
+
+            height: 100%;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 1px 3px 0 #92919180;
+
+            h1 {
+                display: flex;
+                justify-content: center;
+            }
+
+            .button {
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                .btn {
+                    padding: 10px;
+                    background-color: #38948A;
+                    color: #fff;
+                }
+            }
+
+            h2 {
+                font-size: 13px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

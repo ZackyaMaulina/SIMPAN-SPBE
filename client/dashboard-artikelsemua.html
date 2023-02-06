@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    <title>Dashboard-admin</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+<body class="admin">
+    <!-- navbar -->
+    <section id="header">
+        <nav>
+            <div class="left">
+                <img src="img/logokuansing.png" alt="">
+                <span>ADMIN DASHBOARD</span>
+            </div>
+            <div class="right">
+                <div class="right-left">
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+                <div class="right-center">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="bi bi-person-circle"></i>
+                            <span>Admin</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#"><i class="bi bi-person-gear"></i>Account Settings</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i>Logout</a>
+                        </div>
+                    </li>
+                </div>
+                <dive class="right-right">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </dive>
+            </div>
+        </nav>
+    </section>
+
+    <!-- sidebar -->
+    <input type="checkbox" id="toggle">
+    <label class="side-toggle" for="toggle"><i class="bi bi-list"></i></label>
+    <div class="sidebar-dashboard">
+        <ul>
+            <li>
+                <a href="">
+                    <i class="bi bi-house-door-fill"></i>
+                    <span class="beranda">Beranda</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-newspaper"></i>
+                    <span class="beranda">Artikel</span>
+                </a>
+                <ul>
+                    <li><a class="active" href="">Semua Artikel</a></li>
+                    <li><a href="">Tambah Artikel</a></li>
+                    <li><a href="">Kategori</a></li>
+                    <li><a href="">Komentar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-file-break-fill"></i>
+                    <span class="beranda">Halaman</span>
+                </a>
+                <ul>
+                    <li><a href="">Semua Halaman</a></li>
+                    <li><a href="">Tambah Halaman</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-chat-left-dots-fill"></i>
+                    <span class="beranda">Forum</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Semua Forum</a></li>
+                    <li><a href="">Tambah Forum</a></li>
+                    <li><a href="">Kategori</a></li>
+                    <li><a href="">Komentar</a></li>
+                    <li><a href="">Jawaban</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-plugin"></i>
+                    <span class="beranda">Plugin</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Semua Plugin</a></li>
+                    <li><a href="">Tambah Plugin</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-gear-fill"></i>
+                    <span class="beranda">Pengaturan</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Umum</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-people-fill"></i>
+                    <span class="beranda">Pengguna</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Administrator</a></li>
+                    <li><a href="">User Interface</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- main -->
+    <section id="main-dashboard-artikel-semua">
+        <div class="content">
+            <div class="card-admin">
+                <div class="card1">
+                    <div class="left">
+                        <i class="bi bi-newspaper"></i>
+                        <span class="beranda">Semua Artikel</span>
+                    </div>
+                    <div class="right">
+                        <a class="btn1" href="">
+                            <i class="bi bi-pencil-square"></i>
+                            Tambah Baru
+                        </a>
+                        <a class="btn2" href="">
+                            <i class="bi bi-trash-fill"></i>
+                            Hapus Item Terpilih
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card2">
+                <form role="search">
+                    <i class="bi bi-search"></i>
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                </form>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th class="title" scope="col">Judul</th>
+                            <th class="writer" scope="col"> Ditulis Oleh</th>
+                            <th class="kategori" scope="col">Kategori</th>
+                            <th class="satus" scope="col">Status</th>
+                            <th class="aksi" scope="col">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="col1">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan Berbasis GIS</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                                    <label class="custom-control-label" for="customSwitch1">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col2">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch2" checked>
+                                    <label class="custom-control-label" for="customSwitch2">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col1">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan Berbasis GIS</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch3" checked>
+                                    <label class="custom-control-label" for="customSwitch3">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col2">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch4" checked>
+                                    <label class="custom-control-label" for="customSwitch4">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col1">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan Berbasis GIS</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch5" checked>
+                                    <label class="custom-control-label" for="customSwitch5">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col2">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch6" checked>
+                                    <label class="custom-control-label" for="customSwitch6">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col1">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan Berbasis GIS</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch7" checked>
+                                    <label class="custom-control-label" for="customSwitch7">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col2">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch8" checked>
+                                    <label class="custom-control-label" for="customSwitch8">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col1">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintahan</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch9" checked>
+                                    <label class="custom-control-label" for="customSwitch9">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                        <tr class="col2">
+                            <th scope="col">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                            </th>
+                            <th scope="col">Optimalisasi Sistem Informasi/Database Jaringan Jalan</th>
+                            <th scope="col">Admin</th>
+                            <th scope="col">Kegiatan Pemerintah</th>
+                            <th scope="col">
+                                <!-- Default checked -->
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch10" checked>
+                                    <label class="custom-control-label" for="customSwitch10">On</label>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <a href=""><i class="bi bi-pencil-square"></i></a>
+                                <a href=""><i class="bi bi-trash-fill"></i></a>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="card3">
+                    <h1>Showing 1 to 10 of 10 entries</h1>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+    <script type="module" src="/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+
+</html>

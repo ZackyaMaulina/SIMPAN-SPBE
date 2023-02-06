@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+    <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    <title>Pengaturan-lokalisasi</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+<body class="admin">
+    <!-- navbar -->
+    <section id="header">
+        <nav>
+            <div class="left">
+                <img src="img/logokuansing.png" alt="">
+                <span>ADMIN DASHBOARD</span>
+            </div>
+            <div class="right">
+                <div class="right-left">
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+                <div class="right-center">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="bi bi-person-circle"></i>
+                            <span>Admin</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#"><i class="bi bi-person-gear"></i>Account Settings</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i>Logout</a>
+                        </div>
+                    </li>
+                </div>
+                <dive class="right-right">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                </dive>
+            </div>
+        </nav>
+    </section>
+
+    <!-- sidebar -->
+    <input type="checkbox" id="toggle">
+    <label class="side-toggle" for="toggle"><i class="bi bi-list"></i></label>
+    <div class="sidebar-dashboard">
+        <ul>
+            <li>
+                <a href="">
+                    <i class="bi bi-house-door-fill"></i>
+                    <span class="beranda">Beranda</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-newspaper"></i>
+                    <span class="beranda">Artikel</span>
+                </a>
+                <ul>
+                    <li><a class="active" href="">Semua Artikel</a></li>
+                    <li><a href="">Tambah Artikel</a></li>
+                    <li><a href="">Kategori</a></li>
+                    <li><a href="">Komentar</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-file-break-fill"></i>
+                    <span class="beranda">Halaman</span>
+                </a>
+                <ul>
+                    <li><a href="">Semua Halaman</a></li>
+                    <li><a href="">Tambah Halaman</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-chat-left-dots-fill"></i>
+                    <span class="beranda">Forum</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Semua Forum</a></li>
+                    <li><a href="">Tambah Forum</a></li>
+                    <li><a href="">Kategori</a></li>
+                    <li><a href="">Komentar</a></li>
+                    <li><a href="">Jawaban</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-plugin"></i>
+                    <span class="beranda">Plugin</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Semua Plugin</a></li>
+                    <li><a href="">Tambah Plugin</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-gear-fill"></i>
+                    <span class="beranda">Pengaturan</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Umum</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">
+                    <i class="bi bi-people-fill"></i>
+                    <span class="beranda">Pengguna</span>
+                </a>
+                <ul class="forum-show">
+                    <li><a href="">Administrator</a></li>
+                    <li><a href="">User Interface</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- main -->
+    <section id="main-admin-pengaturan-lokalisasi">
+        <div class="content">
+            <div class="left">
+                <div class="card1">
+                    <a href="">
+                        <i class="bi bi-tools"></i>
+                        <h1>UMUM</h1>
+                        <p>Pengaturan Umum</p>
+                    </a>
+                </div>
+                <div class="card1">
+                    <a class="active" href="">
+                        <i class="bi bi-globe-asia-australia"></i>
+                        <h1>LOKALISASI</h1>
+                        <p>Pengaturan Lokalisasi</p>
+                    </a>
+                </div>
+                <div class="card1">
+                    <a href="">
+                        <i class="bi bi-images"></i>
+                        <h1>Media</h1>
+                        <p>Pengaturan Media</p>
+                    </a>
+                    <div class="card1">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card1">
+                    <h1>Bahasa Buku Halaman Depan</h1>
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="1">Bahasa Indonesia</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <a class="btn1" href="">
+                        <i class="bi bi-pencil-square"></i>
+                        Simpan
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+    <script type="module" src="/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+
+</html>
